@@ -28,16 +28,16 @@ Bu bir node kurulumu değildir. Sadece görevi yapmak için, sözleşmeyle etkil
 → Yeni oluşturduğun Metamask cüzdanını bağla.
 → Discord ve github hesabını bağla.
 
-1. **Alchemy Base Mainnet RPC URL**
+2. **Alchemy Base Mainnet RPC URL**
 → [Alchemy](https://www.alchemy.com/) hesabı oluşturun.
 → Base Mainnet için RPC alın.
 → Format: `https://base-mainnet.g.alchemy.com/v2/YOUR_API_KEY`
 
-2. **Cüzdan Bilgileri**
+3. **Cüzdan Bilgileri**
 → **ÖNEMLİ:** Sadece boş ve kullanmadığınız cüzdan kullanın.
 → Private key'i hazır bulundurun.
   
-3. **Gerekli Bakiyeler**
+4. **Gerekli Bakiyeler**
 → **Prover Rol için:** 10+ USDC + 1$ ETH (gas)
 → **Dev Rol için:** 0.000001+ ETH + gas için ETH
 → **Her ikisi için:** 10+ USDC + 0.000001+ ETH + 1-2$ ETH (komisyon) = Toplam 12$
@@ -80,20 +80,30 @@ bash <(curl -s https://raw.githubusercontent.com/UfukNode/boundless-guild-rol/re
 #### 1. RPC URL Girişi
 → Alchemy Base Mainnet RPC URL'nizi girin: https://base-mainnet.g.alchemy.com/v2/YOUR_API_KEY
 
+---
+
 #### 2. Private Key Girişi
 → Cüzdan Private Key'inizi girin (görünmeyecek): [GİZLİ GİRİŞ]
+
+---
 
 #### 3. Rol Seçimi
 → Prover (10 USDC gerekli)
 → Dev (0.000001 ETH gerekli)
 → Her ikisini de yap (10 USDC + 0.000001 ETH gerekli)
 
+---
+
 #### 4. Miktar Ayarlama
 → Varsayılan değerleri kullanabilir veya değiştirebilirsiniz
+
+---
 
 #### 5. Bakiye Kontrolü
 → Script gerekli bakiyeleri gösterir.
 → Onayınızı bekler.
+
+---
 
 #### 6. İşlem Gerçekleştirme
 → Blockchain işlemlerini gerçekleştirir.
