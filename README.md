@@ -77,36 +77,12 @@ bash <(curl -s https://raw.githubusercontent.com/UfukNode/boundless-guild-rol/re
 
 ### 4. Scriptin İsteyeceği Bilgiler:
 
-#### 1. RPC URL Girişi
-→ Alchemy Base Mainnet RPC URL'nizi girin: https://base-mainnet.g.alchemy.com/v2/YOUR_API_KEY
-
----
-
-#### 2. Private Key Girişi
-→ Cüzdan Private Key'inizi girin (görünmeyecek): [GİZLİ GİRİŞ]
-
----
-
-#### 3. Rol Seçimi
-→ Prover (10 USDC gerekli)
-→ Dev (0.000001 ETH gerekli)
-→ Her ikisini de yap (10 USDC + 0.000001 ETH gerekli)
-
----
-
-#### 4. Miktar Ayarlama
-→ Varsayılan değerleri kullanabilir veya değiştirebilirsiniz
-
----
-
-#### 5. Bakiye Kontrolü
-→ Script gerekli bakiyeleri gösterir.
-→ Onayınızı bekler.
-
----
-
-#### 6. İşlem Gerçekleştirme
-→ Blockchain işlemlerini gerçekleştirir.
+- 1. RPC URL Girişi
+- 2. Private Key Girişi
+- 3. Rol Seçimi
+- 4. Miktar Ayarlama
+- 5. Bakiye Kontrolü
+- 6. İşlem Gerçekleştirme
   
 ![image](https://github.com/user-attachments/assets/b71153d6-af64-4247-9fb1-171cf4f61351)
 
