@@ -24,23 +24,23 @@ Bu bir node kurulumu değildir. Sadece görevi yapmak için, sözleşmeyle etkil
 ## Kurulum Öncesi Gereklilikler:
 
 1. **Guil Hesapları Bağla**
-   - [Guild](https://guild.xyz/boundless-xyz) git.
-   - Yeni oluşturduğun Metamask cüzdanını bağla.
-   - Discord ve github hesabını bağla.
+→ [Guild](https://guild.xyz/boundless-xyz) git.
+→ Yeni oluşturduğun Metamask cüzdanını bağla.
+→ Discord ve github hesabını bağla.
 
 1. **Alchemy Base Mainnet RPC URL**
-   - [Alchemy](https://www.alchemy.com/) hesabı oluşturun.
-   - Base Mainnet için RPC alın.
-   - Format: `https://base-mainnet.g.alchemy.com/v2/YOUR_API_KEY`
+→ [Alchemy](https://www.alchemy.com/) hesabı oluşturun.
+→ Base Mainnet için RPC alın.
+→ Format: `https://base-mainnet.g.alchemy.com/v2/YOUR_API_KEY`
 
 2. **Cüzdan Bilgileri**
-   - **ÖNEMLİ:** Sadece boş ve kullanmadığınız cüzdan kullanın.
-   - Private key'i hazır bulundurun.
+→ **ÖNEMLİ:** Sadece boş ve kullanmadığınız cüzdan kullanın.
+→ Private key'i hazır bulundurun.
   
 3. **Gerekli Bakiyeler**
-   - **Prover Rol için:** 10+ USDC + 1$ ETH (gas)
-   - **Dev Rol için:** 0.000001+ ETH + gas için ETH
-   - **Her ikisi için:** 10+ USDC + 0.000001+ ETH + 1-2$ ETH (komisyon) = Toplam 12$
+→ **Prover Rol için:** 10+ USDC + 1$ ETH (gas)
+→ **Dev Rol için:** 0.000001+ ETH + gas için ETH
+→ **Her ikisi için:** 10+ USDC + 0.000001+ ETH + 1-2$ ETH (komisyon) = Toplam 12$
   
 ---
 
@@ -49,9 +49,11 @@ Bu bir node kurulumu değildir. Sadece görevi yapmak için, sözleşmeyle etkil
 ### 1. Sunucuya Bağlanın:
 
 → Terminalinizi açın ve aşağıdaki komutu çalıştırarak sunucunuza bağlanın.
+
 ```bash
 ssh root@sunucu-ip-gir
 ```
+![Go6eU0TW0AEO7pj](https://github.com/user-attachments/assets/eacb854b-39a0-4c44-b18e-f4b1380032c3)
 
 ---
 
@@ -65,7 +67,6 @@ sudo apt update && sudo apt install -y curl
 
 ### 3. Script'i İndirin ve Çalıştırın
 
-**Veya tek komutla:**
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/UfukNode/boundless-guild-rol/refs/heads/main/guild.sh)
 ```
