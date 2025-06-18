@@ -205,6 +205,7 @@ execute_transaction() {
           --set-verifier-address 0x8C5a8b5cC272Fe2b74D18843CF9C3aCBc952a760 \
           --verifier-router-address 0x0b144e07a0826182b6b59788c34b32bfa86fb711 \
           --order-stream-url "https://base-mainnet.beboundless.xyz" \
+          --chain-id 8453 \
           account deposit-stake $STAKE_AMOUNT
           
     elif [[ "$ROLE" == "dev" ]]; then
@@ -216,6 +217,7 @@ execute_transaction() {
           --set-verifier-address 0x8C5a8b5cC272Fe2b74D18843CF9C3aCBc952a760 \
           --verifier-router-address 0x0b144e07a0826182b6b59788c34b32bfa86fb711 \
           --order-stream-url "https://base-mainnet.beboundless.xyz/" \
+          --chain-id 8453 \  
           account deposit $DEPOSIT_AMOUNT
           
     else # both
@@ -227,6 +229,7 @@ execute_transaction() {
           --set-verifier-address 0x8C5a8b5cC272Fe2b74D18843CF9C3aCBc952a760 \
           --verifier-router-address 0x0b144e07a0826182b6b59788c34b32bfa86fb711 \
           --order-stream-url "https://base-mainnet.beboundless.xyz" \
+          --chain-id 8453 \
           account deposit-stake $STAKE_AMOUNT
           
         echo -e "${YELLOW}${DEPOSIT_AMOUNT} ETH deposit ediliyor...${NC}"
@@ -238,6 +241,7 @@ execute_transaction() {
           --set-verifier-address 0x8C5a8b5cC272Fe2b74D18843CF9C3aCBc952a760 \
           --verifier-router-address 0x0b144e07a0826182b6b59788c34b32bfa86fb711 \
           --order-stream-url "https://base-mainnet.beboundless.xyz/" \
+          --chain-id 8453 \
           account deposit $DEPOSIT_AMOUNT
     fi
     
